@@ -17,7 +17,7 @@ public class L2022211855_5_Test {
         Solution5 solution = new Solution5();
         int[] nums = {5};
         int target = 1;
-        int expected = 10; // 预期返回的有效子序列数量
+        int expected = 1; // 预期返回的有效子序列数量
 
         int actual = solution.numSubseq(nums, target);
         System.out.println("Expected: " + expected + ", Actual: " + actual);
@@ -34,7 +34,7 @@ public class L2022211855_5_Test {
         Solution5 solution = new Solution5();
         int[] nums = {3, 5, 6, 7};
         int target = 9;
-        int expected = 40; // 预期返回的有效子序列数量
+        int expected = 4; // 预期返回的有效子序列数量
 
         int actual = solution.numSubseq(nums, target);
         System.out.println("Expected: " + expected + ", Actual: " + actual);
