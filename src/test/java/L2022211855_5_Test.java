@@ -16,7 +16,7 @@ public class L2022211855_5_Test {
     public void testNumSubseqSingleElement() {
         Solution5 solution = new Solution5();
         int[] nums = {5};
-        int target = 1;
+        int target = 10;
         int expected = 1; // 预期返回的有效子序列数量
 
         int actual = solution.numSubseq(nums, target);
